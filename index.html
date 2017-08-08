@@ -16,16 +16,17 @@
     <div class="container" id="cv">
         <div class="side">
             <div class="me">
-                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">求职信息</span></h2>
-                <hr>
-                <ul class="info-list">
-                    <li>
-                        <label class="left-label">意向岗位</label><span class="label-value">iOS高级开发工程师</span></li>
-                    <li>
-                        <label class="left-label">工作城市</label><span class="label-value">上海</span></li>
-                    <li>
-                        <label class="left-label">目前状况</label><span class="label-value">在职</span></li>                
-                </ul>
+                <div class="portrait">
+                    <img src="static/image/portrait.jpeg" alt="">
+                </div>
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >刘加国</h1>
+                <h4 id="persona-tag" >iOS高级开发工程师</h4>
             </div>
             <div class="profile info-unit">
                 <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
